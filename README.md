@@ -6,6 +6,7 @@ TheGame
 
 TheGame.sln
   Game.Server
+  
     - Server side game logic. Currently the dlls get copied to the PhotonControl installed locally on your pc.
         -http://doc.exitgames.com/en/onpremise/current/getting-started/photon-server-in-5min
         - You will need to set the build target for coping the dlls to the correct directory (build.targets)
