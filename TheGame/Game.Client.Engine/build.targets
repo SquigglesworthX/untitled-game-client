@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="AllTargetsWrapper" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Files Include="$(TargetDir)TheGame.Client.Engine.dll" />
+  </ItemGroup>
+  <Target Name="AfterBuild">
+    <Copy SourceFiles="@(Files)" DestinationFolder="$(SolutionDir)Game.Client.Unity3D\Assets\Libs" />
+  </Target>
+
+</Project>

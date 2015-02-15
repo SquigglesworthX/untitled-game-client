@@ -1,0 +1,7 @@
+﻿<!-- This goes in the PhotonServer.config -->
+<Application
+  Name="TheGameServer"
+  BaseDirectory="TheGameServer"
+  Assembly="TheGame.Server"
+  Type="TheGame.Server.GameServer">
+</Application>
