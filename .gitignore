@@ -49,6 +49,8 @@ InfiniteWorld/**/*.sln
 TheGame/Game.Client.Unity3D/obj/
 TheGame/Game.Client.Unity3D/Library/
 TheGame/Game.Client.Unity3D/Temp/
-TheGame/Game.Client.Unity3D/**/*.suo
 TheGame/Game.Client.Unity3D/**/*.sln
 TheGame/Game.Client.Unity3D/**/*.csproj
+
+TheGame/**/*.suo
+TheGame/**/*.user
